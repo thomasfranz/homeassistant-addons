@@ -1,6 +1,6 @@
 name: "Local Sound Output Add-On"
 description: "Play sounds and make acoustic notifications using the audio output (audio jack) of your Home Assistant server, e.g. Raspberry Pi. This is not intended to be a media player, but for use of sounds in automations, scripts and so on."
-version: "0.0.1"
+version: "0.0.2"
 slug: "local_sound_output"
 init: false
 arch:
@@ -9,3 +9,6 @@ arch:
   - armhf
   - armv7
   - i386
+audio: true
+map:
+  - media
